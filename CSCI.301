@@ -1,0 +1,14 @@
+# Create a new repository on the command line
+
+echo "# GitHub-Lab" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/DDMatthews2-ComputerScience/csci-301-fall-2017-blob-master-labs-lab01-Lab1.pdf.git
+git push -u origin master
+
+
+# Push an existing repository from the command line
+
+git remote add origin https://github.com/DDMatthews2-ComputerScience/GitHub-Lab.git
+git push -u origin master
